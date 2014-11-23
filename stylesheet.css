@@ -1,0 +1,31 @@
+head {
+	font-family: Arvo;
+}
+
+h1 {
+	font-family: Arvo;
+	font-size: 20px;
+	color: #3D96F9;
+	text-align: center;
+}
+
+h3 {
+	font-family: Arvo;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+}
+
+table {
+	font-family: Arvo;
+	font-size: 18px;
+	text-align: left;
+	background-color: #1AFFBD;
+}
+
+
+p1 {
+	font-family: Arvo;
+	font-size: 15px;
+	color: black;
+}
