@@ -3,8 +3,10 @@ head {
 }
 
 h1 {
-	font-family: Arvo;
+	font-family: Arvo;		
+	/* you can add others wuith comma, it takes the first one it can find. */
 	font-size: 20px;
+	/* can use em instead of px too to make it the relecant value depending on the device */
 	color: #3D96F9;
 	text-align: center;
 }
@@ -29,3 +31,6 @@ p1 {
 	font-size: 15px;
 	color: black;
 }
+
+
+/* for comments in css */
