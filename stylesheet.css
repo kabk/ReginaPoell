@@ -32,5 +32,39 @@ p1 {
 	color: black;
 }
 
+tbody tr td:hover { 					/*  change of object when mouse over */
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-/* for comments in css */
+
+/* for comments in css 
+
+
+div {
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 5px;				- makes the shape round.
+	margin: auto;					- centers the shape on page
+    text-align: center;				- cernters text within the box
+}
+
+*{ } 		- selector for each element.
+
+html - class="one"		- define several things at once.
+css - .one {}
+
+html - id="second"		- define one specific thing.
+css - #second
+
+css:
+a:link: 	- An unvisited link.
+a:visited:  - A visited link.
+a:hover:	- A link you're hovering your 
+
+*/
