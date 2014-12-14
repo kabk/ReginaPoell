@@ -1,5 +1,9 @@
-head {
+#header {
 	font-family: Arvo;
+	background-color: 33FFCC;
+	color: black;
+	text-align: center;
+    padding:5px;
 }
 
 h1 {
@@ -7,36 +11,190 @@ h1 {
 	/* you can add others wuith comma, it takes the first one it can find. */
 	font-size: 20px;
 	/* can use em instead of px too to make it the relecant value depending on the device */
-	color: #3D96F9;
 	text-align: center;
 }
 
 h3 {
 	font-family: Arvo;
 	font-size: 15px;
-	color: black;
 	text-align: center;
 }
 
-table {
-	font-family: Arvo;
+h3 em {
+	border-top: 3px solid black;
+}
+
+#nav {
+    font-family: Arvo;
+	height: 375px;
+    width: 320px;
+	line-height: 20px;
 	font-size: 18px;
 	text-align: left;
-	background-color: #1AFFBD;
-}
-
-
-p1 {
-	font-family: Arvo;
-	font-size: 15px;
 	color: black;
+	padding: 20px;
+	list-style: none;
+    border-style: solid;
+    border-width: 3px;
+	border-color: black;
 }
 
-tbody tr td:hover { 					/*  change of object when mouse over */
-	color: #cc0000;
-	font-weight: bold;
+a {
 	text-decoration: none;
 }
+
+
+#nav :hover { 					/*  change of object when mouse over */
+	font-family: Arvo;
+	color: 33FFCC;
+	font-style: italic;
+	font-size: 73px;
+	text-decoration: none;
+	line-height: 50px;
+	text-align: center;
+	padding: 20px;
+}
+
+
+#abstract, #motivation, #intro, #word,
+#definition, #rewind, #failure, #tention,
+#symmetry, #space, #round, #hands, #techy,
+#spotless, #city, #glitch, #perfect, #now
+ {
+    font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	text-align: left;
+    width: 1000px;
+	border-left: 3px solid black;
+	padding: 20px;
+}
+
+/*
+#motivation {
+	font-family: Arvo;
+	border-top: 3px solid black;
+	font-size: 20px;
+	color: black;
+	padding: 50px;
+}
+
+#intro {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 20px;
+}
+
+#word {
+	font-family: Arvo;
+	font-size: 20px;
+	color: black;
+	padding: 5px;
+}
+
+#definition {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#rewind {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#failure {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+
+#tention {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+
+#symmetry {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#space {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#round {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#hands {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#techy {
+	font-family: Arvo;
+	font-size: 17px;
+	color: black;
+	padding: 5px;
+}
+
+#motivation
+#intro
+#word
+#definition
+#rewind
+#failure
+#tention
+#symmetry
+#space
+#round
+#hands
+#techy
+#spotless
+#city
+#glitch
+#perfect
+#now
+*/
+
+
+
+
+
+#footer {
+	font-family: Arvo;
+	font-size: 10px;
+    background-color:33FFCC;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+
+
+
+
 
 
 /* for comments in css 
