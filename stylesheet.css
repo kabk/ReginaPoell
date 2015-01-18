@@ -99,14 +99,25 @@ a img {
 	font-style: italic;
 	color: black;
 	text-align: left;
-	width: "250";
-	height: "auto";
 	position: absolute;
 	    left: 970px;
 	    top: 200px;
 		padding-left: 20px;
 		border: none;
 }
+
+
+#pisa:hover {
+    content: url(iMAGE/1pisa.jpg);
+}
+
+
+
+
+
+
+
+
 
 #footer {
 	font-family: Arvo;
