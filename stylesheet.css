@@ -1,163 +1,123 @@
 #header {
 	font-family: Arvo;
-	background-color: 33FFCC;
-	color: black;
 	text-align: center;
-    padding:5px;
+	font-size: 41px;
+    padding: 5px;
+	color: white;
+	    text-shadow:
+	    +2px +2px 0 #000,
+	    2px -2px 0 #000,
+	    -2px -2px 0 #000,
+	    2px 2px 0 #000;
 }
 
-h1 {
-	font-family: Arvo;		
-	/* you can add others wuith comma, it takes the first one it can find. */
-	font-size: 20px;
-	/* can use em instead of px too to make it the relecant value depending on the device */
-	text-align: center;
-}
-
-h3 {
+#header1{
+	margin: left;
+	position: fixed;
+	    left: 10px;
+	    top: 40px;
 	font-family: Arvo;
-	font-size: 15px;
-	text-align: center;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: left;
+	padding: 10px;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
 }
 
-h3 em {
-	border-top: 3px solid black;
-}
 
 #nav {
-    font-family: Arvo;
-	height: 375px;
-    width: 320px;
+	margin: left;
+	position: fixed;
+	    left: 10px;
+	    top: 175px;
+	font-family: Arvo;
+	height: 440px;
+    width: 290px;
 	line-height: 20px;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: left;
 	color: black;
-	padding: 20px;
+	padding: 10px;
 	list-style: none;
-    border-style: solid;
-    border-width: 3px;
-	border-color: black;
+	border-right: solid 2px black;
+    
 }
 
-a {
-	text-decoration: none;
+#nav, a {
+	text-decoration: none;	
+}
+
+#nav a:link a:visited {
+	color: black;
 }
 
 
 #nav :hover { 					/*  change of object when mouse over */
 	font-family: Arvo;
-	color: 33FFCC;
 	font-style: italic;
 	font-size: 73px;
 	text-decoration: none;
-	line-height: 50px;
-	text-align: center;
+	line-height: 90px;
 	padding: 20px;
+	position: fixed;
+	    left: 250px;
+	    top: 200px;
+	color: white;
+	    text-shadow:
+	    -10px -10px 0 #000,
+	    1px -1px 0 #000,
+	    -9px 9px 0 #000,
+	    +4px -4px 0 #000,
+		+14px -14px 0 #000,
+		+6px +6px 0 #000,
+		-4px -4px 0 #000;
 }
 
 
 #abstract, #motivation, #intro, #word,
 #definition, #rewind, #failure, #tention,
 #symmetry, #space, #round, #hands, #techy,
-#spotless, #city, #glitch, #perfect, #now
+#spotless, #city, #eat, #glitch, #perfect, #now
  {
     font-family: Arvo;
 	font-size: 17px;
 	color: black;
+	text-align: justify;
+    width: 600px;
+	padding-left: 340px;
+	padding-right: 5px;
+}
+
+a img {
+	border: none;
+}
+
+#images {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
 	text-align: left;
-    width: 1000px;
-	border-left: 3px solid black;
-	padding: 20px;
+	width: "250";
+	height: "auto";
+	position: absolute;
+	    left: 970px;
+	    top: 200px;
+		padding-left: 20px;
+		border: none;
+}
+
+#footer {
+	font-family: Arvo;
+	font-size: 10px;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
 }
 
 /*
-#motivation {
-	font-family: Arvo;
-	border-top: 3px solid black;
-	font-size: 20px;
-	color: black;
-	padding: 50px;
-}
-
-#intro {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 20px;
-}
-
-#word {
-	font-family: Arvo;
-	font-size: 20px;
-	color: black;
-	padding: 5px;
-}
-
-#definition {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#rewind {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#failure {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-
-#tention {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-
-#symmetry {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#space {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#round {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#hands {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
-#techy {
-	font-family: Arvo;
-	font-size: 17px;
-	color: black;
-	padding: 5px;
-}
-
 #motivation
 #intro
 #word
@@ -177,19 +137,6 @@ a {
 #now
 */
 
-
-
-
-
-#footer {
-	font-family: Arvo;
-	font-size: 10px;
-    background-color:33FFCC;
-    color:black;
-    clear:both;
-    text-align:center;
-    padding:5px; 
-}
 
 
 
