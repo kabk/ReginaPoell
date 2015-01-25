@@ -32,6 +32,7 @@
 	    left: 10px;
 	    top: 175px;
 	font-family: Arvo;
+	color: black;
 	height: 440px;
     width: 290px;
 	line-height: 20px;
@@ -46,6 +47,7 @@
 
 #nav, a {
 	text-decoration: none;	
+	color: black;
 }
 
 #nav a:link a:visited {
@@ -76,9 +78,9 @@
 
 
 #abstract, #motivation, #intro, #word,
-#definition, #rewind, #failure, #tention,
+#definition, #judging, #rewind, #failure, #tention,
 #symmetry, #space, #round, #hands, #techy,
-#spotless, #city, #eat, #glitch, #perfect, #now
+#spotless, #city, #eat, #glitch, #perfect, #now, #image
  {
     font-family: Arvo;
 	font-size: 17px;
@@ -93,7 +95,9 @@ a img {
 	border: none;
 }
 
-#images {
+
+
+#boxpisa {
 	font-family: Arvo;
 	font-size: 12px;
 	font-style: italic;
@@ -101,19 +105,494 @@ a img {
 	text-align: left;
 	position: absolute;
 	    left: 970px;
-	    top: 200px;
+	    top: 400px;
 		padding-left: 20px;
-		border: none;
+		border: none;	
+}
+
+#boxtattoo {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 2900px;
+		padding-left: 20px;
+		border: none;	
+}
+
+#boxswiss {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 3500px;
+		padding-left: 20px;
+		border: none;		
+}
+#boxsymmetry {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 5520px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxcircle {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 6200px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxcmyk {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 7500px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxmoniker {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 8020px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxjeans {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 9840px;
+		padding-left: 20px;
+		border: none;	
+}
+
+#boxvanabbeI {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 11270px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxrosa {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 12430px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxmyglitch {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 13800px;
+		padding-left: 20px;
+		border: none;	
+}
+#boxbriel {
+	font-family: Arvo;
+	font-size: 12px;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	position: absolute;
+	    left: 970px;
+	    top: 13200px;
+		padding-left: 20px;
+		border: none;	
 }
 
 
-#pisa:hover {
-    content: url(iMAGE/1pisa.jpg);
+
+
+
+
+#vanabbeI:hover {
+    content: url('iMAGE/14vanabbe.jpg');
+}
+#circleI:hover {
+    content: url('iMAGE/17circle.jpg');
+}
+#circleIII:hover {
+    content: url('iMAGE/15circle.jpg');
+}
+#circleIV:hover {
+    content: url('iMAGE/16circle.jpg');
+}
+#cmyk:hover {
+    content: url('iMAGE/19cmyk.jpg');
+}
+#monikerII:hover {
+    content: url('iMAGE/21moniker.jpg');
+}
+#monikerIV:hover {
+    content: url('iMAGE/23moniker.jpg');
+}
+#rosaI:hover {
+    content: url('iMAGE/26rosamenkman.jpg');
+}
+#brielI:hover {
+    content: url('iMAGE/28briel.jpg');
 }
 
 
 
 
+/*	Footnotes	*/
+
+#one {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 1100px;
+	left: 970px;
+	padding: 20px;
+}
+
+#two {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 1850px;
+	left: 970px;
+	padding: 20px;
+}
+#three {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 2500px;
+	left: 970px;
+	padding: 20px;
+}
+#four {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 2590px;
+	left: 970px;
+	padding: 20px;
+}
+#five {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 2790px;
+	left: 970px;
+	padding: 20px;
+}
+#six {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 3770px;
+	left: 970px;
+	padding: 20px;
+}	
+	
+#seven {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 4230px;
+	left: 970px;
+	padding: 20px;
+}
+#eight {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 4410px;
+	left: 970px;
+	padding: 20px;
+}
+#nine {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 4850px;
+	left: 970px;
+	padding: 20px;
+}
+#ten {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 5020px;
+	left: 970px;
+	padding: 20px;
+}
+#eleven {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 5130px;
+	left: 970px;
+	padding: 20px;
+}
+#twelve {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 5200px;
+	left: 970px;
+	padding: 20px;
+}
+#thirteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 5320px;
+	left: 970px;
+	padding: 20px;
+}
+#fourteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 5390px;
+	left: 970px;
+	padding: 20px;
+}
+#fifteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 6090px;
+	left: 970px;
+	padding: 20px;
+}
+#sixteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 7020px;
+	left: 970px;
+	padding: 20px;
+}
+#seventeen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 7400px;
+	left: 970px;
+	padding: 20px;
+}
+#eighteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 7780px;
+	left: 970px;
+	padding: 20px;
+}
+#nineteen {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 7850px;
+	left: 970px;
+	padding: 20px;
+}
+#twenty {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 7880px;
+	left: 970px;
+	padding: 20px;
+}
+#twentyone {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 9140px;
+	left: 970px;
+	padding: 20px;
+}
+#twentytwo {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 10820px;
+	left: 970px;
+	padding: 20px;
+}
+#twentythree {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 12300px;
+	left: 970px;
+	padding: 20px;
+}
+#twentyfour {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 12700px;
+	left: 970px;
+	padding: 20px;
+}
+#twentyfive {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 13050px;
+	left: 970px;
+	padding: 20px;
+}
+#twentysix {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 14920px;
+	left: 970px;
+	padding: 20px;
+}
+#twentyseven {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 15000px;
+	left: 970px;
+	padding: 20px;
+}
+#footnote {
+	font-family: Arvo;
+	font-size: 14;
+	font-style: italic;
+	width: 150px;
+	padding left: 20px;
+	position: absolute;
+	top: 16250px;
+	left: 970px;
+	padding: 20px;
+}
 
 
 
